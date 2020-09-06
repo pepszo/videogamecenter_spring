@@ -7,20 +7,17 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "GameInfos")
+@Table(name = "Orders")
 @JsonIdentityInfo(
         generator = ObjectIdGenerators.PropertyGenerator.class,
-        property = "idProduct",
-        scope = GameInfo.class)
-public class GameInfo {
+        property = "idOrder",
+        scope = Order.class)
+public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "idProduct", nullable = false)
-    private int idProduct;
+    @Column(name = "idOrder", nullable = false)
+    private int idOrder;
 
-    @Column(name = "releaseDate")
-    private Date releaseDate;
-
-    @Column(name = "descri")
-    private String descri;
+    @Column(name = "orderDate")
+    private Date orderDate;
 }

@@ -1,4 +1,5 @@
 package tfe.videogamecenter.repositories;
 
-public interface WarrantyRepo {
+public class OrderRepo {
+
 }

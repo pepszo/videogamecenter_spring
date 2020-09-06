@@ -1,4 +1,5 @@
 package tfe.videogamecenter.controllers;
 
-public class WarrantyController {
+public class OrderStateController {
+
 }

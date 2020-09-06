@@ -1,4 +1,5 @@
 package tfe.videogamecenter.controllers;
 
-public class SoldItemController {
+public class GenreController {
+
 }

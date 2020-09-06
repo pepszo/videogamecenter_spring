@@ -1,4 +1,4 @@
 package tfe.videogamecenter.services;
 
-public class WarrantyServiceImpl {
+public interface ModeService {
 }

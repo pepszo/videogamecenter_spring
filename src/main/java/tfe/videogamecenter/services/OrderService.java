@@ -1,4 +1,4 @@
 package tfe.videogamecenter.services;
 
-public interface WarrantyService {
+public interface OrderService {
 }

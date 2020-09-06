@@ -1,4 +1,5 @@
 package tfe.videogamecenter.services;
 
-public class SoldItemServiceImpl {
+public class OrderStateServiceImpl {
+
 }

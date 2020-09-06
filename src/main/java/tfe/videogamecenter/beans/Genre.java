@@ -4,23 +4,19 @@ import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
-import java.util.Date;
 
 @Entity
-@Table(name = "GameInfos")
+@Table(name = "Genres")
 @JsonIdentityInfo(
         generator = ObjectIdGenerators.PropertyGenerator.class,
-        property = "idProduct",
-        scope = GameInfo.class)
-public class GameInfo {
+        property = "idGenre",
+        scope = Genre.class)
+public class Genre {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "idProduct", nullable = false)
-    private int idProduct;
+    @Column(name = "idGenre", nullable = false)
+    private int idGenre;
 
-    @Column(name = "releaseDate")
-    private Date releaseDate;
-
-    @Column(name = "descri")
-    private String descri;
+    @Column(name = "label")
+    private String label;
 }

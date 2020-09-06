@@ -1,4 +1,4 @@
 package tfe.videogamecenter.services;
 
-public interface SoldItemService {
+public interface OrderStateService {
 }

@@ -1,4 +1,5 @@
 package tfe.videogamecenter.repositories;
 
-public interface SoldItemRepo {
+public class OrderTypeRepo {
+
 }
